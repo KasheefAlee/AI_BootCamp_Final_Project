@@ -1,0 +1,76 @@
+{
+  "lama": {
+    "total_questions": 3,
+    "correct_answers": 3,
+    "accuracy": 1.0,
+    "responses": [
+      {
+        "question": "What is the capital of France?",
+        "expected_answer": "Paris",
+        "agent_answer": "Answer: The capital of France is Paris. It is a city with a rich history and cultural significance. Paris serves as the political and economic center of France.\n\nSources: https://en.wikipedia.org/wiki/France, https://en.wikipedia.org/wiki/Paris",
+        "is_correct": true,
+        "execution_time": 2.4976375102996826
+      },
+      {
+        "question": "Who wrote Romeo and Juliet?",
+        "expected_answer": "William Shakespeare",
+        "agent_answer": "Answer: William Shakespeare wrote \"Romeo and Juliet.\" The play was written around 1594\u201396.\n\nSources: https://en.wikipedia.org/wiki/Romeo_and_Juliet, https://www.britannica.com/topic/Romeo-and-Juliet",
+        "is_correct": true,
+        "execution_time": 2.8500783443450928
+      },
+      {
+        "question": "What is the largest planet in our solar system?",
+        "expected_answer": "Jupiter",
+        "agent_answer": "Answer: The largest planet in our solar system is Jupiter. It has a diameter of 142,800 km, more than 11 times that of Earth. Jupiter is the fifth planet from the Sun.\n\nSources: https://www.skyatnightmagazine.com/space-science/what-is-biggest-planet, https://skyandtelescope.org/astronomy-resources/smallest-and-largest-planets-in-our-solar-system/",
+        "is_correct": true,
+        "execution_time": 2.6995770931243896
+      }
+    ]
+  },
+  "gsm8k": {
+    "total_questions": 3,
+    "correct_answers": 0,
+    "accuracy": 0.0,
+    "responses": [
+      {
+        "question": "Janet's dogs eat 2 pounds of dog food each day. How many pounds of dog food do her dogs eat in 7 days?",
+        "expected_answer": "14",
+        "agent_answer": "2",
+        "is_correct": false,
+        "execution_time": 3.6340692043304443,
+        "reasoning_steps": [
+          "Used math_solver on 'Janet's dogs eat 2 pounds of dog food each day. How many pounds of dog food do her dogs eat in 7 days?' -> Problem: Janet's dogs eat 2 pounds of dog food each day. How many pounds of dog food do her dogs eat in 7 days?\nFound nu",
+          "Used web_search on 'Janet's dogs eat 2 pounds of dog food each day. How many pounds of dog food do her dogs eat in 7 days?' -> Answer: Janet's dogs eat 2 pounds of dog food each day. Over 7 days, they consume 14 pounds of dog food.\n\nSources: https"
+        ]
+      },
+      {
+        "question": "There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?",
+        "expected_answer": "6",
+        "agent_answer": "15",
+        "is_correct": false,
+        "execution_time": 5.558516025543213,
+        "reasoning_steps": [
+          "Used math_solver on 'There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?' -> Problem: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there ",
+          "Used web_search on 'There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?' -> Answer: The grove workers planted 6 trees today. Originally, there were 15 trees, and now there are 21. The difference i"
+        ]
+      },
+      {
+        "question": "Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?",
+        "expected_answer": "39",
+        "agent_answer": "32",
+        "is_correct": false,
+        "execution_time": 5.315880298614502,
+        "reasoning_steps": [
+          "Used math_solver on 'Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?' -> Problem: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\nSolut",
+          "Used web_search on 'Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?' -> Answer: Leah and her sister had 74 chocolates total. They ate 35, leaving them with 39 chocolates.\n\nSources: https://www"
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "overall_accuracy": 0.5,
+    "factual_accuracy": 1.0,
+    "reasoning_accuracy": 0.0,
+    "total_questions": 6
+  }
+}
