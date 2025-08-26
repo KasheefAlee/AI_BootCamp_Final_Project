@@ -1,4 +1,4 @@
-# 🤖 Agentic AI Bootcamp
+# 🤖 Northern PEPs Agentic AI
 
 A 3-day AI bootcamp project for building intelligent agents with Chain of Thought reasoning, task decomposition, and dynamic tool selection.
 
@@ -178,10 +178,5 @@ This is a bootcamp project designed for learning. Feel free to:
 - Improve evaluation metrics
 - Share your insights
 
-## 📝 License
 
-This project is for educational purposes as part of the AI bootcamp curriculum.
 
----
-
-**Happy Building! 🚀**
